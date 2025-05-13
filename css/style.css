@@ -140,5 +140,67 @@ img {
  /* MOBILE */
 
  @media screen and (max-width: 480px) {
+    .container {
+        width: 480px;
+        max-width: 100%;
+    }
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        max-width: 90%;
+        margin: 0 auto;
+        align-items: center; 
+    }
+    .steps {
+        margin-bottom: 0px;
+        padding: 3rem 0;
+    }
+    .steps .col {
+        width: 100%;
+    }
+    .steps .col img {
+        height: 200px;
+        margin-bottom: 1rem;
+        margin-top: 3rem;
+    }
+    .lessons .col {
+        width: 100%;
+    }
+    .lessons .col img {
+        height: 200px;
+        margin-bottom: 1rem;
+        margin-top: 3rem;
+    }
+    .why-us {
+        background-color: black;
+        margin-bottom: 0px;
+        padding: 3rem;
 
- }
+    }
+    .why-us .col-left {
+        width: 100%;
+    }
+    .why-us .col-right {
+        width: 100%;
+    }
+    .why-us li {
+        list-style: none;
+        margin-bottom: 2.5rem;
+    }
+    h1 {
+        font-size: 3rem;
+    }
+    body {
+        font-size: 1.2rem;
+    }
+    h2 {
+        font-size: 2.4rem;
+    }
+    h3 {
+        font-size: 1.4rem;
+    }
+    ul li p {
+        font-size: 0.95rem;
+    }
+}
